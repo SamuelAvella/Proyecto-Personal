@@ -34,7 +34,7 @@ button{
 nav{position: sticky;
     top: 0;}
 /* Add a black background color to the top navigation */
-.topnav {
+nav {
     background-color: #000000;
     overflow: hidden;
     position: fixed;
@@ -97,7 +97,7 @@ nav{position: sticky;
 #hero{
     background-image: url(../img/hero.jpg);
     background-size: cover;
-    height: 95vh;                   
+    height: 100vh;                   
     background-position: center;
     position: relative;
 }
@@ -135,7 +135,7 @@ nav{position: sticky;
 
 #intro h1{
     color: #3581B8;
-    padding-top: 5%;
+    padding-top: 13%;
     font-size: 1.8em;
     text-align: center;
 }
@@ -188,7 +188,7 @@ nav{position: sticky;
 #intro img{width: 100%;}
 
 @media screen and (min-width:940px) {
-    #intro h1{font-size: 2.5em;}
+    #intro h1{font-size: 2.5em; padding-top: 6%;}
     #intro p{font-size: 1em;}
     .grid-3{grid-template-columns: auto auto auto;}
     #intro .grid-3{gap: 2em;}
@@ -202,7 +202,7 @@ nav{position: sticky;
   
 #starting h1{
     color: #f2f2f2;
-    padding-top: 5%;
+    padding-top: 13%;
     font-size: 1.8em;
     text-align: center;
 }
@@ -219,7 +219,10 @@ nav{position: sticky;
     flex: 100%;
     max-width: 100%;
 }
-  
+ 
+#starting .grid-2{
+    padding-bottom: 3%;
+}
 #starting p{
     font-family: sans-serif;
     font-size: 1.1em;
@@ -241,17 +244,19 @@ nav{position: sticky;
 #starting button:hover{background-color: rgba(211, 229, 235, 0.808);}
 
 @media screen and (min-width:940px) {
-    #starting h1{font-size: 2.5em;}
+    #starting h1{font-size: 2.5em; padding-top: 6%}
     #starting p{font-size: 1.2em;}
     .grid-2{grid-template-columns: auto auto;}
     #starting .grid-2{gap: 2em;}
     #starting .text{padding: 10% 4%;}
 }
 /***GALLERY***/
-
+#gallery{
+    padding-bottom: 3%;
+}
 #gallery h1{
     color: #000000;
-    padding-top: 9%;
+    padding-top: 13%;
     font-size: 1.8em;
     text-align: center;
 }
@@ -291,4 +296,7 @@ nav{position: sticky;
     height: 100%;
 }
 
+@media screen and (min-width:940px) {
+    #gallery h1{font-size: 2.5em; padding-top: 6%}
+}
 /***CONTACT***/
