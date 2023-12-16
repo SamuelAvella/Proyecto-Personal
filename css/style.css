@@ -50,7 +50,7 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-family: 'Oswald';
   }
 
@@ -161,7 +161,7 @@ nav {
 
 #intro h1{
     color: #3581B8;
-    padding-top: 13%;
+    padding-top: 15%;
     font-size: 2.1em;
     text-align: center;
 }
@@ -198,7 +198,7 @@ nav {
   
 #intro p{
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
     text-align: center;
 }
@@ -228,7 +228,7 @@ nav {
   
 #starting h1{
     color: #f2f2f2;
-    padding-top: 13%;
+    padding-top: 15%;
     font-size: 2.1em;
     text-align: center;
     padding-bottom: 3%;
@@ -252,13 +252,13 @@ nav {
 }
 #starting p{
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
     text-align: center;
 }
   
 #starting button{
-    font-size: 0.9em;
+    font-size: 0.7em;
     text-decoration: none;
     color: black;
     padding: 7px 15px;
@@ -285,7 +285,7 @@ nav {
 
 #gallery h1{
     color: #000000;
-    padding-top: 13%;
+    padding-top: 15%;
     font-size: 2.1em;
     text-align: center;
 }
