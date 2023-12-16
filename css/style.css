@@ -457,6 +457,10 @@ nav {
 @media screen and (min-width:940px) {
     #routines h1{font-size: 2.5em; padding-top: 6%;}
     #routines p{font-size: 1em;}
+    .accordion-link h3{
+        font-weight:500;
+        font-size: 1.2em;
+    }
 }
 /***********************FOOTER***********************/
 
