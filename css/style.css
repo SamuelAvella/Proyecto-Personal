@@ -50,7 +50,7 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 100%;
     font-family: 'Oswald';
   }
 
@@ -76,9 +76,9 @@ nav {
       float: right;
       display: block;
     }
+    
   }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 940px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
@@ -118,6 +118,32 @@ nav {
   
 #hero .container span{
     color: #3581B8;
+}
+
+#hero .go-down{
+    position: absolute;
+    bottom: 50px;
+    width: 26px;
+    height:40px;
+    border:1px solid #ffffff;
+    display: block;
+    border-radius:4px;
+    text-align: center;
+    left:50%;
+    margin-left: -13px;
+  }
+#hero .go-down .fa{
+    color:#ffffff;
+    -webkit-animation: goDown 1s ease infinite;
+    animation: goDown 1s ease infinite;
+}
+@-webkit-keyframes goDown{
+    0%{transform: translateY(0);opacity:.5}
+    100%{transform: translateY(10px);}
+}
+@keyframes goDown{
+    0%{transform: translateY(0);opacity:.5}
+    100%{transform: translateY(10px);}
 }
   
 /***********************WRAPPER***********************/
