@@ -50,7 +50,7 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-family: 'Oswald';
   }
 
@@ -103,7 +103,7 @@ nav {
 }
 #hero h1{
     color: #f2f2f2;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 @media screen and (min-width:940px) {
@@ -136,7 +136,7 @@ nav {
 #intro h1{
     color: #3581B8;
     padding-top: 13%;
-    font-size: 1.9m;
+    font-size: 2.1em;
     text-align: center;
 }
   
@@ -165,14 +165,14 @@ nav {
   
 #intro h3{
     font-family: 'Oswald';
-    font-size: 1.7em;
+    font-size: 1.8em;
     color: white;
     text-align: center;
 }
   
 #intro p{
     font-family: sans-serif;
-    font-size: 1.35em;
+    font-size: 1.5em;
     color: white;
     text-align: center;
 }
@@ -203,7 +203,7 @@ nav {
 #starting h1{
     color: #f2f2f2;
     padding-top: 13%;
-    font-size: 1.9em;
+    font-size: 2.1em;
     text-align: center;
     padding-bottom: 3%;
 }
