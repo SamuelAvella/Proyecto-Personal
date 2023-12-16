@@ -33,7 +33,6 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 (una breve explicación)</p>
 
 <h3>Introducción</h3>
-<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
 <p>He dispuesto en un grid de 2 columnas....</p>
 
 .......
@@ -43,8 +42,8 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 <p>y aqui pongo <b>lo que quiera</b></p>
 
 <h3>Footer</h3>
-<p>breve explicación </p>
-
+<p>En mi footer dispuesto en un grid de 3, digo un poco sobre mi y redes sociales, una copia de la barra de navegación e información de contacto</p>
+<p>Lo he cogido de: <a href="https://github.com/fedegeretto/footer-responsive/blob/main/style.css">footer</a></p>
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
 <p>.....</p>
@@ -54,3 +53,12 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 <p>.....</p>
 <h3>Videos</h3>
 <p>.....</p>
+...................
+
+<h2 id="snippets">Code snippets</h2>
+<p>He utilizado los siguientes:</p>
+<ul>
+  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
+  <li>Accordion: <a href="https://codepen.io/Tuna_/pen/KKzXEVO?editors=1010">https://codepen.io/Tuna_/pen/KKzXEVO?editors=1010</a></li>
+  <li>..........</li>
+</ul>
